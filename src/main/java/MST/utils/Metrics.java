@@ -1,5 +1,7 @@
 package MST.utils;
 
+import java.util.Locale;
+
 public class Metrics {
     private String algorithmName;
     private int graphId;
@@ -72,11 +74,11 @@ public class Metrics {
     }
 
     public String toCsvRow() {
-        return String.format("%s,%d,%d,%d,%.2f,%d,%.2f,%d",
+        return String.format(Locale.US, "%s;%d;%d;%d;%.2f;%d;%.2f;%d",
                 algorithmName, graphId, vertices, edges, totalCost, operationsCount, executionTimeMs, mstEdgesCount);
     }
 
     public static String csvHeader() {
-        return "Algorithm,GraphID,Vertices,Edges,TotalCost,Operations,TimeMs,MSTEdges";
+        return "Algorithm;GraphID;Vertices;Edges;TotalCost;Operations;TimeMs;MSTEdges";
     }
 }
