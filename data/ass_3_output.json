@@ -1,0 +1,5699 @@
+{
+  "results": [
+    {
+      "graph_id": 1,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 9
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 2.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 4.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 30.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 34.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 30.0
+          }
+        ],
+        "total_cost": 100,
+        "operations_count": 33,
+        "execution_time_ms": 1.69
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 2.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 4.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 30.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_D",
+            "weight": 30.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 34.0
+          }
+        ],
+        "total_cost": 100,
+        "operations_count": 21,
+        "execution_time_ms": 0.22
+      }
+    },
+    {
+      "graph_id": 2,
+      "input_stats": {
+        "vertices": 4,
+        "edges": 4
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 77.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 33.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_C",
+            "weight": 12.0
+          }
+        ],
+        "total_cost": 122,
+        "operations_count": 17,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_D",
+            "to": "District_C",
+            "weight": 12.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 33.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 77.0
+          }
+        ],
+        "total_cost": 122,
+        "operations_count": 14,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 3,
+      "input_stats": {
+        "vertices": 4,
+        "edges": 6
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 4.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 5.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_B",
+            "weight": 23.0
+          }
+        ],
+        "total_cost": 32,
+        "operations_count": 23,
+        "execution_time_ms": 0.01
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_C",
+            "to": "District_A",
+            "weight": 4.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 5.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 23.0
+          }
+        ],
+        "total_cost": 32,
+        "operations_count": 12,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 4,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 8
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 7.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 13.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 37.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 42.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 30.0
+          }
+        ],
+        "total_cost": 129,
+        "operations_count": 27,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 7.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 13.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 30.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 37.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 42.0
+          }
+        ],
+        "total_cost": 129,
+        "operations_count": 18,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 5,
+      "input_stats": {
+        "vertices": 5,
+        "edges": 8
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 67.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 10.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 55.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 74.0
+          }
+        ],
+        "total_cost": 206,
+        "operations_count": 29,
+        "execution_time_ms": 0.01
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 10.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_B",
+            "weight": 55.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 67.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 74.0
+          }
+        ],
+        "total_cost": 206,
+        "operations_count": 16,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 6,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 8
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 17.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 6.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 54.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_C",
+            "weight": 67.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 19.0
+          }
+        ],
+        "total_cost": 163,
+        "operations_count": 33,
+        "execution_time_ms": 0.01
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 6.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 17.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 19.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_D",
+            "weight": 54.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 67.0
+          }
+        ],
+        "total_cost": 163,
+        "operations_count": 23,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 7,
+      "input_stats": {
+        "vertices": 4,
+        "edges": 5
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 11.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_C",
+            "weight": 17.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_B",
+            "weight": 16.0
+          }
+        ],
+        "total_cost": 44,
+        "operations_count": 21,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_D",
+            "to": "District_A",
+            "weight": 11.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 16.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 17.0
+          }
+        ],
+        "total_cost": 44,
+        "operations_count": 12,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 8,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 8
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 14.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_C",
+            "weight": 41.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 11.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_B",
+            "weight": 68.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 53.0
+          }
+        ],
+        "total_cost": 187,
+        "operations_count": 31,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 11.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 14.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_C",
+            "weight": 41.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 53.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 68.0
+          }
+        ],
+        "total_cost": 187,
+        "operations_count": 22,
+        "execution_time_ms": 0.02
+      }
+    },
+    {
+      "graph_id": 9,
+      "input_stats": {
+        "vertices": 4,
+        "edges": 6
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 6.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_B",
+            "weight": 43.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 19.0
+          }
+        ],
+        "total_cost": 68,
+        "operations_count": 23,
+        "execution_time_ms": 0.01
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_D",
+            "to": "District_A",
+            "weight": 6.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_B",
+            "weight": 19.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_B",
+            "weight": 43.0
+          }
+        ],
+        "total_cost": 68,
+        "operations_count": 13,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 10,
+      "input_stats": {
+        "vertices": 5,
+        "edges": 9
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 50.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 53.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 30.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 3.0
+          }
+        ],
+        "total_cost": 136,
+        "operations_count": 35,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 3.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 30.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_A",
+            "weight": 50.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 53.0
+          }
+        ],
+        "total_cost": 136,
+        "operations_count": 19,
+        "execution_time_ms": 0.01
+      }
+    },
+    {
+      "graph_id": 11,
+      "input_stats": {
+        "vertices": 12,
+        "edges": 15
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 5.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 22.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 53.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_I",
+            "weight": 31.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 55.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_J",
+            "weight": 60.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_K",
+            "weight": 58.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_B",
+            "weight": 26.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 92.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_L",
+            "weight": 65.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 95.0
+          }
+        ],
+        "total_cost": 562,
+        "operations_count": 61,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 5.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 22.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 26.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_I",
+            "weight": 31.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 53.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 55.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_K",
+            "weight": 58.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_D",
+            "weight": 60.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_L",
+            "weight": 65.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 92.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 95.0
+          }
+        ],
+        "total_cost": 562,
+        "operations_count": 46,
+        "execution_time_ms": 0.02
+      }
+    },
+    {
+      "graph_id": 12,
+      "input_stats": {
+        "vertices": 12,
+        "edges": 25
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_J",
+            "weight": 12.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_G",
+            "weight": 17.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_D",
+            "weight": 5.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_E",
+            "weight": 19.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_B",
+            "weight": 1.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_K",
+            "weight": 26.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 31.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_H",
+            "weight": 14.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_I",
+            "weight": 26.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_L",
+            "weight": 34.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_F",
+            "weight": 35.0
+          }
+        ],
+        "total_cost": 220,
+        "operations_count": 85,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 1.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_D",
+            "weight": 5.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_J",
+            "weight": 12.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_H",
+            "weight": 14.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 17.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 17.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_K",
+            "weight": 26.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_I",
+            "weight": 26.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 31.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_L",
+            "weight": 34.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_G",
+            "weight": 35.0
+          }
+        ],
+        "total_cost": 218,
+        "operations_count": 59,
+        "execution_time_ms": 0.04
+      }
+    },
+    {
+      "graph_id": 13,
+      "input_stats": {
+        "vertices": 15,
+        "edges": 16
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 52.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_O",
+            "weight": 36.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 55.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_F",
+            "weight": 44.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_I",
+            "weight": 44.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_H",
+            "weight": 46.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 65.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 71.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_G",
+            "weight": 84.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 25.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_N",
+            "weight": 34.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_L",
+            "weight": 90.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_M",
+            "weight": 30.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_K",
+            "weight": 60.0
+          }
+        ],
+        "total_cost": 736,
+        "operations_count": 65,
+        "execution_time_ms": 0.03
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 25.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_L",
+            "weight": 30.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_N",
+            "weight": 34.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_O",
+            "weight": 36.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_F",
+            "weight": 44.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_I",
+            "weight": 44.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_H",
+            "weight": 46.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 52.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 55.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_M",
+            "weight": 60.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 65.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 71.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_G",
+            "weight": 84.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_L",
+            "weight": 90.0
+          }
+        ],
+        "total_cost": 736,
+        "operations_count": 55,
+        "execution_time_ms": 0.02
+      }
+    },
+    {
+      "graph_id": 14,
+      "input_stats": {
+        "vertices": 14,
+        "edges": 32
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 9.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_C",
+            "weight": 18.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 30.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 32.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_E",
+            "weight": 29.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_B",
+            "weight": 23.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_K",
+            "weight": 45.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_J",
+            "weight": 10.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_D",
+            "weight": 10.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_G",
+            "weight": 54.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_M",
+            "weight": 19.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_N",
+            "weight": 47.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_L",
+            "weight": 89.0
+          }
+        ],
+        "total_cost": 415,
+        "operations_count": 113,
+        "execution_time_ms": 0.05
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_F",
+            "to": "District_A",
+            "weight": 9.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_K",
+            "weight": 10.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_K",
+            "weight": 10.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 18.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_G",
+            "weight": 19.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 23.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 29.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 30.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_A",
+            "weight": 32.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_K",
+            "weight": 45.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_N",
+            "weight": 47.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_G",
+            "weight": 54.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_D",
+            "weight": 89.0
+          }
+        ],
+        "total_cost": 415,
+        "operations_count": 114,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 15,
+      "input_stats": {
+        "vertices": 11,
+        "edges": 17
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_I",
+            "weight": 30.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 38.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_C",
+            "weight": 4.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 10.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_H",
+            "weight": 40.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_J",
+            "weight": 50.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 54.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_D",
+            "weight": 57.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_E",
+            "weight": 79.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_G",
+            "weight": 85.0
+          }
+        ],
+        "total_cost": 447,
+        "operations_count": 63,
+        "execution_time_ms": 0.03
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 4.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_B",
+            "weight": 10.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_I",
+            "weight": 30.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 38.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_K",
+            "weight": 40.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_J",
+            "weight": 50.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_C",
+            "weight": 54.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_H",
+            "weight": 57.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 79.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_G",
+            "weight": 85.0
+          }
+        ],
+        "total_cost": 447,
+        "operations_count": 50,
+        "execution_time_ms": 0.02
+      }
+    },
+    {
+      "graph_id": 16,
+      "input_stats": {
+        "vertices": 14,
+        "edges": 30
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_N",
+            "weight": 2.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_K",
+            "weight": 4.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 6.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_D",
+            "weight": 16.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_L",
+            "weight": 17.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_J",
+            "weight": 17.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 19.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_I",
+            "weight": 30.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_M",
+            "weight": 9.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_G",
+            "weight": 40.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_E",
+            "weight": 31.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_B",
+            "weight": 7.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 68.0
+          }
+        ],
+        "total_cost": 266,
+        "operations_count": 107,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_N",
+            "to": "District_A",
+            "weight": 2.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_N",
+            "weight": 4.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 6.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_B",
+            "weight": 7.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_M",
+            "weight": 9.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_N",
+            "weight": 16.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_L",
+            "weight": 17.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_D",
+            "weight": 17.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 19.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 21.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_I",
+            "weight": 30.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_M",
+            "weight": 40.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 68.0
+          }
+        ],
+        "total_cost": 256,
+        "operations_count": 96,
+        "execution_time_ms": 0.03
+      }
+    },
+    {
+      "graph_id": 17,
+      "input_stats": {
+        "vertices": 12,
+        "edges": 17
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 27.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 4.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_H",
+            "weight": 7.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 19.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 23.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_L",
+            "weight": 65.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_J",
+            "weight": 37.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_G",
+            "weight": 22.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_K",
+            "weight": 43.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_E",
+            "weight": 22.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_B",
+            "weight": 46.0
+          }
+        ],
+        "total_cost": 315,
+        "operations_count": 65,
+        "execution_time_ms": 0.03
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 4.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_H",
+            "weight": 7.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 19.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_K",
+            "weight": 22.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_G",
+            "weight": 22.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 23.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 27.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_J",
+            "weight": 37.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_G",
+            "weight": 43.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 46.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_L",
+            "weight": 65.0
+          }
+        ],
+        "total_cost": 315,
+        "operations_count": 55,
+        "execution_time_ms": 0.02
+      }
+    },
+    {
+      "graph_id": 18,
+      "input_stats": {
+        "vertices": 15,
+        "edges": 22
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 27.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_H",
+            "weight": 45.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 51.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_K",
+            "weight": 1.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 9.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_B",
+            "weight": 46.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 28.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_O",
+            "weight": 30.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_M",
+            "weight": 9.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 46.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_L",
+            "weight": 62.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 71.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_I",
+            "weight": 39.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_N",
+            "weight": 21.0
+          }
+        ],
+        "total_cost": 485,
+        "operations_count": 85,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_K",
+            "to": "District_G",
+            "weight": 1.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 9.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_O",
+            "weight": 9.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_N",
+            "weight": 21.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 27.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 28.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_B",
+            "weight": 30.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_I",
+            "weight": 39.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_H",
+            "weight": 45.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 46.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 46.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 51.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_L",
+            "weight": 62.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 71.0
+          }
+        ],
+        "total_cost": 485,
+        "operations_count": 73,
+        "execution_time_ms": 0.07
+      }
+    },
+    {
+      "graph_id": 19,
+      "input_stats": {
+        "vertices": 10,
+        "edges": 23
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 23.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_H",
+            "weight": 23.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 37.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_E",
+            "weight": 9.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_D",
+            "weight": 10.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_I",
+            "weight": 12.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_B",
+            "weight": 19.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_C",
+            "weight": 17.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_J",
+            "weight": 43.0
+          }
+        ],
+        "total_cost": 193,
+        "operations_count": 75,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_G",
+            "to": "District_E",
+            "weight": 9.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 10.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_I",
+            "weight": 12.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 17.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 19.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_C",
+            "weight": 21.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_H",
+            "weight": 23.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_A",
+            "weight": 23.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_J",
+            "weight": 43.0
+          }
+        ],
+        "total_cost": 177,
+        "operations_count": 56,
+        "execution_time_ms": 0.04
+      }
+    },
+    {
+      "graph_id": 20,
+      "input_stats": {
+        "vertices": 11,
+        "edges": 15
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 5.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 12.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_G",
+            "weight": 63.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 38.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_F",
+            "weight": 49.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_I",
+            "weight": 1.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_E",
+            "weight": 31.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 70.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 19.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 26.0
+          }
+        ],
+        "total_cost": 314,
+        "operations_count": 55,
+        "execution_time_ms": 0.02
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_F",
+            "to": "District_I",
+            "weight": 1.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 5.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 12.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 19.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 26.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_E",
+            "weight": 31.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 38.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_G",
+            "weight": 49.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_G",
+            "weight": 63.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 70.0
+          }
+        ],
+        "total_cost": 314,
+        "operations_count": 41,
+        "execution_time_ms": 0.02
+      }
+    },
+    {
+      "graph_id": 21,
+      "input_stats": {
+        "vertices": 22,
+        "edges": 37
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 57.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 76.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_O",
+            "weight": 76.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_Q",
+            "weight": 4.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_G",
+            "weight": 22.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_R",
+            "weight": 25.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_F",
+            "weight": 15.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_M",
+            "weight": 28.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_T",
+            "weight": 28.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 39.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_C",
+            "weight": 44.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_D",
+            "weight": 33.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_E",
+            "weight": 37.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_U",
+            "weight": 55.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_V",
+            "weight": 72.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_N",
+            "weight": 77.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_K",
+            "weight": 4.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_P",
+            "weight": 45.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_L",
+            "weight": 80.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_I",
+            "weight": 49.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_S",
+            "weight": 98.0
+          }
+        ],
+        "total_cost": 964,
+        "operations_count": 137,
+        "execution_time_ms": 0.06
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_K",
+            "to": "District_N",
+            "weight": 4.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_O",
+            "weight": 4.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_R",
+            "weight": 15.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_O",
+            "weight": 22.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_R",
+            "weight": 25.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_F",
+            "weight": 28.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_O",
+            "weight": 28.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_J",
+            "weight": 33.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_M",
+            "weight": 37.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_G",
+            "weight": 39.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_C",
+            "weight": 44.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_K",
+            "weight": 45.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_L",
+            "weight": 49.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_U",
+            "weight": 55.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 57.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_V",
+            "weight": 72.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 76.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_O",
+            "weight": 76.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_K",
+            "weight": 77.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_N",
+            "weight": 80.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_S",
+            "weight": 98.0
+          }
+        ],
+        "total_cost": 964,
+        "operations_count": 149,
+        "execution_time_ms": 0.06
+      }
+    },
+    {
+      "graph_id": 22,
+      "input_stats": {
+        "vertices": 21,
+        "edges": 58
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 6.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_K",
+            "weight": 11.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 25.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_N",
+            "weight": 26.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_G",
+            "weight": 27.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_O",
+            "weight": 2.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_F",
+            "weight": 14.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_S",
+            "weight": 1.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 17.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_I",
+            "weight": 19.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_M",
+            "weight": 19.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_T",
+            "weight": 29.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_Q",
+            "weight": 32.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_D",
+            "weight": 15.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_L",
+            "weight": 25.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_P",
+            "weight": 14.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_U",
+            "weight": 15.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_R",
+            "weight": 60.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 70.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_B",
+            "weight": 93.0
+          }
+        ],
+        "total_cost": 520,
+        "operations_count": 193,
+        "execution_time_ms": 0.1
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_F",
+            "to": "District_S",
+            "weight": 1.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_G",
+            "weight": 2.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_H",
+            "weight": 6.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_K",
+            "weight": 11.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_G",
+            "weight": 14.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_D",
+            "weight": 14.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_Q",
+            "weight": 15.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_Q",
+            "weight": 15.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_J",
+            "weight": 17.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_M",
+            "weight": 19.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_O",
+            "weight": 19.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 25.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_Q",
+            "weight": 25.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_N",
+            "weight": 26.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_G",
+            "weight": 27.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_T",
+            "weight": 29.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_C",
+            "weight": 32.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_U",
+            "weight": 60.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 70.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_E",
+            "weight": 93.0
+          }
+        ],
+        "total_cost": 520,
+        "operations_count": 209,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 23,
+      "input_stats": {
+        "vertices": 30,
+        "edges": 64
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_0",
+            "to": "District_19",
+            "weight": 27.0
+          },
+          {
+            "from": "District_19",
+            "to": "District_15",
+            "weight": 10.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_1",
+            "weight": 40.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_11",
+            "weight": 15.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_12",
+            "weight": 16.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_20",
+            "weight": 22.0
+          },
+          {
+            "from": "District_20",
+            "to": "District_29",
+            "weight": 11.0
+          },
+          {
+            "from": "District_29",
+            "to": "District_16",
+            "weight": 26.0
+          },
+          {
+            "from": "District_12",
+            "to": "District_2",
+            "weight": 27.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_8",
+            "weight": 18.0
+          },
+          {
+            "from": "District_8",
+            "to": "District_3",
+            "weight": 5.0
+          },
+          {
+            "from": "District_3",
+            "to": "District_9",
+            "weight": 10.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_28",
+            "weight": 11.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_27",
+            "weight": 11.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_6",
+            "weight": 21.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_10",
+            "weight": 25.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_18",
+            "weight": 6.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_17",
+            "weight": 32.0
+          },
+          {
+            "from": "District_17",
+            "to": "District_13",
+            "weight": 14.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_5",
+            "weight": 41.0
+          },
+          {
+            "from": "District_27",
+            "to": "District_25",
+            "weight": 41.0
+          },
+          {
+            "from": "District_8",
+            "to": "District_7",
+            "weight": 44.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_14",
+            "weight": 47.0
+          },
+          {
+            "from": "District_27",
+            "to": "District_21",
+            "weight": 48.0
+          },
+          {
+            "from": "District_21",
+            "to": "District_26",
+            "weight": 19.0
+          },
+          {
+            "from": "District_14",
+            "to": "District_23",
+            "weight": 68.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_4",
+            "weight": 69.0
+          },
+          {
+            "from": "District_26",
+            "to": "District_22",
+            "weight": 71.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_24",
+            "weight": 78.0
+          }
+        ],
+        "total_cost": 873,
+        "operations_count": 233,
+        "execution_time_ms": 0.06
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_8",
+            "to": "District_3",
+            "weight": 5.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_18",
+            "weight": 6.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_3",
+            "weight": 10.0
+          },
+          {
+            "from": "District_19",
+            "to": "District_15",
+            "weight": 10.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_28",
+            "weight": 11.0
+          },
+          {
+            "from": "District_20",
+            "to": "District_29",
+            "weight": 11.0
+          },
+          {
+            "from": "District_27",
+            "to": "District_9",
+            "weight": 11.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_17",
+            "weight": 14.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_11",
+            "weight": 15.0
+          },
+          {
+            "from": "District_12",
+            "to": "District_11",
+            "weight": 16.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_8",
+            "weight": 18.0
+          },
+          {
+            "from": "District_26",
+            "to": "District_21",
+            "weight": 19.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_6",
+            "weight": 21.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_20",
+            "weight": 22.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_10",
+            "weight": 25.0
+          },
+          {
+            "from": "District_29",
+            "to": "District_16",
+            "weight": 26.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_19",
+            "weight": 27.0
+          },
+          {
+            "from": "District_12",
+            "to": "District_2",
+            "weight": 27.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_17",
+            "weight": 32.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_1",
+            "weight": 40.0
+          },
+          {
+            "from": "District_5",
+            "to": "District_11",
+            "weight": 41.0
+          },
+          {
+            "from": "District_25",
+            "to": "District_27",
+            "weight": 41.0
+          },
+          {
+            "from": "District_7",
+            "to": "District_8",
+            "weight": 44.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_14",
+            "weight": 47.0
+          },
+          {
+            "from": "District_27",
+            "to": "District_21",
+            "weight": 48.0
+          },
+          {
+            "from": "District_14",
+            "to": "District_23",
+            "weight": 68.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_13",
+            "weight": 69.0
+          },
+          {
+            "from": "District_22",
+            "to": "District_26",
+            "weight": 71.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_24",
+            "weight": 78.0
+          }
+        ],
+        "total_cost": 873,
+        "operations_count": 217,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 24,
+      "input_stats": {
+        "vertices": 21,
+        "edges": 56
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 10.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_Q",
+            "weight": 26.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_P",
+            "weight": 5.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_M",
+            "weight": 20.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_N",
+            "weight": 36.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_J",
+            "weight": 3.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_B",
+            "weight": 8.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_T",
+            "weight": 17.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 22.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 9.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 23.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_H",
+            "weight": 24.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_U",
+            "weight": 26.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_O",
+            "weight": 17.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_L",
+            "weight": 7.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_R",
+            "weight": 28.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_S",
+            "weight": 32.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 35.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_E",
+            "weight": 44.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 85.0
+          }
+        ],
+        "total_cost": 477,
+        "operations_count": 193,
+        "execution_time_ms": 0.05
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_N",
+            "to": "District_J",
+            "weight": 3.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_P",
+            "weight": 5.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_O",
+            "weight": 7.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_B",
+            "weight": 8.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 9.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 10.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_T",
+            "weight": 17.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_O",
+            "weight": 17.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_P",
+            "weight": 20.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 22.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 23.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_D",
+            "weight": 24.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_Q",
+            "weight": 26.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_U",
+            "weight": 26.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_R",
+            "weight": 28.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_S",
+            "weight": 32.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 35.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_Q",
+            "weight": 36.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 44.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 85.0
+          }
+        ],
+        "total_cost": 477,
+        "operations_count": 193,
+        "execution_time_ms": 0.04
+      }
+    },
+    {
+      "graph_id": 25,
+      "input_stats": {
+        "vertices": 27,
+        "edges": 70
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_0",
+            "to": "District_14",
+            "weight": 8.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_18",
+            "weight": 30.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_11",
+            "weight": 32.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_1",
+            "weight": 22.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_4",
+            "weight": 9.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_17",
+            "weight": 13.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_22",
+            "weight": 19.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_13",
+            "weight": 22.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_20",
+            "weight": 2.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_15",
+            "weight": 4.0
+          },
+          {
+            "from": "District_15",
+            "to": "District_3",
+            "weight": 6.0
+          },
+          {
+            "from": "District_15",
+            "to": "District_5",
+            "weight": 11.0
+          },
+          {
+            "from": "District_5",
+            "to": "District_9",
+            "weight": 14.0
+          },
+          {
+            "from": "District_3",
+            "to": "District_12",
+            "weight": 18.0
+          },
+          {
+            "from": "District_12",
+            "to": "District_23",
+            "weight": 4.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_6",
+            "weight": 9.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_10",
+            "weight": 8.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_19",
+            "weight": 6.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_21",
+            "weight": 25.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_16",
+            "weight": 27.0
+          },
+          {
+            "from": "District_21",
+            "to": "District_25",
+            "weight": 1.0
+          },
+          {
+            "from": "District_25",
+            "to": "District_26",
+            "weight": 43.0
+          },
+          {
+            "from": "District_26",
+            "to": "District_24",
+            "weight": 34.0
+          },
+          {
+            "from": "District_26",
+            "to": "District_7",
+            "weight": 8.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_8",
+            "weight": 74.0
+          },
+          {
+            "from": "District_8",
+            "to": "District_2",
+            "weight": 47.0
+          }
+        ],
+        "total_cost": 496,
+        "operations_count": 249,
+        "execution_time_ms": 0.07
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_25",
+            "to": "District_21",
+            "weight": 1.0
+          },
+          {
+            "from": "District_20",
+            "to": "District_13",
+            "weight": 2.0
+          },
+          {
+            "from": "District_23",
+            "to": "District_12",
+            "weight": 4.0
+          },
+          {
+            "from": "District_15",
+            "to": "District_13",
+            "weight": 4.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_19",
+            "weight": 6.0
+          },
+          {
+            "from": "District_3",
+            "to": "District_15",
+            "weight": 6.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_10",
+            "weight": 8.0
+          },
+          {
+            "from": "District_26",
+            "to": "District_7",
+            "weight": 8.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_14",
+            "weight": 8.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_4",
+            "weight": 9.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_9",
+            "weight": 9.0
+          },
+          {
+            "from": "District_15",
+            "to": "District_5",
+            "weight": 11.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_17",
+            "weight": 13.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_5",
+            "weight": 14.0
+          },
+          {
+            "from": "District_12",
+            "to": "District_3",
+            "weight": 18.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_22",
+            "weight": 19.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_13",
+            "weight": 22.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_11",
+            "weight": 22.0
+          },
+          {
+            "from": "District_10",
+            "to": "District_21",
+            "weight": 25.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_16",
+            "weight": 27.0
+          },
+          {
+            "from": "District_18",
+            "to": "District_0",
+            "weight": 30.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_0",
+            "weight": 32.0
+          },
+          {
+            "from": "District_24",
+            "to": "District_26",
+            "weight": 34.0
+          },
+          {
+            "from": "District_26",
+            "to": "District_25",
+            "weight": 43.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_8",
+            "weight": 47.0
+          },
+          {
+            "from": "District_1",
+            "to": "District_8",
+            "weight": 74.0
+          }
+        ],
+        "total_cost": 496,
+        "operations_count": 218,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 26,
+      "input_stats": {
+        "vertices": 24,
+        "edges": 64
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_L",
+            "weight": 2.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_M",
+            "weight": 35.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_K",
+            "weight": 39.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_Q",
+            "weight": 16.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_S",
+            "weight": 23.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_H",
+            "weight": 36.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_R",
+            "weight": 40.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_J",
+            "weight": 41.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_I",
+            "weight": 17.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_N",
+            "weight": 18.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_E",
+            "weight": 19.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_P",
+            "weight": 31.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_G",
+            "weight": 31.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_V",
+            "weight": 11.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_B",
+            "weight": 24.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_O",
+            "weight": 34.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_T",
+            "weight": 39.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_U",
+            "weight": 44.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_C",
+            "weight": 47.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 55.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_W",
+            "weight": 64.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_F",
+            "weight": 30.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_X",
+            "weight": 72.0
+          }
+        ],
+        "total_cost": 768,
+        "operations_count": 223,
+        "execution_time_ms": 0.07
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_L",
+            "to": "District_A",
+            "weight": 2.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_P",
+            "weight": 11.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_Q",
+            "weight": 16.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_J",
+            "weight": 17.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_N",
+            "weight": 18.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_E",
+            "weight": 19.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_S",
+            "weight": 23.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_G",
+            "weight": 24.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_R",
+            "weight": 28.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 29.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_W",
+            "weight": 30.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_V",
+            "weight": 31.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_J",
+            "weight": 31.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_O",
+            "weight": 34.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_M",
+            "weight": 35.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_K",
+            "weight": 36.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_M",
+            "weight": 39.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_P",
+            "weight": 39.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_U",
+            "weight": 44.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_J",
+            "weight": 47.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_B",
+            "weight": 55.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_V",
+            "weight": 64.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_X",
+            "weight": 72.0
+          }
+        ],
+        "total_cost": 744,
+        "operations_count": 199,
+        "execution_time_ms": 0.04
+      }
+    },
+    {
+      "graph_id": 27,
+      "input_stats": {
+        "vertices": 28,
+        "edges": 34
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_0",
+            "to": "District_6",
+            "weight": 15.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_20",
+            "weight": 22.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_7",
+            "weight": 40.0
+          },
+          {
+            "from": "District_20",
+            "to": "District_16",
+            "weight": 21.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_2",
+            "weight": 42.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_10",
+            "weight": 17.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_12",
+            "weight": 45.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_1",
+            "weight": 47.0
+          },
+          {
+            "from": "District_16",
+            "to": "District_18",
+            "weight": 48.0
+          },
+          {
+            "from": "District_18",
+            "to": "District_4",
+            "weight": 1.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_9",
+            "weight": 46.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_21",
+            "weight": 1.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_22",
+            "weight": 24.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_14",
+            "weight": 57.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_3",
+            "weight": 62.0
+          },
+          {
+            "from": "District_3",
+            "to": "District_5",
+            "weight": 69.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_11",
+            "weight": 80.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_19",
+            "weight": 39.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_17",
+            "weight": 84.0
+          },
+          {
+            "from": "District_17",
+            "to": "District_13",
+            "weight": 2.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_8",
+            "weight": 9.0
+          },
+          {
+            "from": "District_16",
+            "to": "District_27",
+            "weight": 89.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_24",
+            "weight": 90.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_26",
+            "weight": 94.0
+          },
+          {
+            "from": "District_5",
+            "to": "District_23",
+            "weight": 97.0
+          },
+          {
+            "from": "District_23",
+            "to": "District_25",
+            "weight": 52.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_15",
+            "weight": 99.0
+          }
+        ],
+        "total_cost": 1292,
+        "operations_count": 129,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_4",
+            "to": "District_18",
+            "weight": 1.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_21",
+            "weight": 1.0
+          },
+          {
+            "from": "District_17",
+            "to": "District_13",
+            "weight": 2.0
+          },
+          {
+            "from": "District_8",
+            "to": "District_13",
+            "weight": 9.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_6",
+            "weight": 15.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_10",
+            "weight": 17.0
+          },
+          {
+            "from": "District_16",
+            "to": "District_20",
+            "weight": 21.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_20",
+            "weight": 22.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_22",
+            "weight": 24.0
+          },
+          {
+            "from": "District_11",
+            "to": "District_19",
+            "weight": 39.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_7",
+            "weight": 40.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_6",
+            "weight": 42.0
+          },
+          {
+            "from": "District_12",
+            "to": "District_0",
+            "weight": 45.0
+          },
+          {
+            "from": "District_4",
+            "to": "District_9",
+            "weight": 46.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_1",
+            "weight": 47.0
+          },
+          {
+            "from": "District_18",
+            "to": "District_16",
+            "weight": 48.0
+          },
+          {
+            "from": "District_23",
+            "to": "District_25",
+            "weight": 52.0
+          },
+          {
+            "from": "District_2",
+            "to": "District_14",
+            "weight": 57.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_3",
+            "weight": 62.0
+          },
+          {
+            "from": "District_3",
+            "to": "District_5",
+            "weight": 69.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_11",
+            "weight": 80.0
+          },
+          {
+            "from": "District_0",
+            "to": "District_17",
+            "weight": 84.0
+          },
+          {
+            "from": "District_16",
+            "to": "District_27",
+            "weight": 89.0
+          },
+          {
+            "from": "District_6",
+            "to": "District_24",
+            "weight": 90.0
+          },
+          {
+            "from": "District_13",
+            "to": "District_26",
+            "weight": 94.0
+          },
+          {
+            "from": "District_5",
+            "to": "District_23",
+            "weight": 97.0
+          },
+          {
+            "from": "District_9",
+            "to": "District_15",
+            "weight": 99.0
+          }
+        ],
+        "total_cost": 1292,
+        "operations_count": 130,
+        "execution_time_ms": 0.03
+      }
+    },
+    {
+      "graph_id": 28,
+      "input_stats": {
+        "vertices": 22,
+        "edges": 32
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_P",
+            "weight": 32.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 49.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_G",
+            "weight": 5.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_S",
+            "weight": 12.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_N",
+            "weight": 44.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_M",
+            "weight": 21.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 47.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_L",
+            "weight": 18.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_D",
+            "weight": 12.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_O",
+            "weight": 11.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_T",
+            "weight": 36.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_K",
+            "weight": 37.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_I",
+            "weight": 41.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_U",
+            "weight": 50.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_Q",
+            "weight": 67.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_B",
+            "weight": 69.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 53.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_V",
+            "weight": 35.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_R",
+            "weight": 74.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 74.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_J",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 879,
+        "operations_count": 125,
+        "execution_time_ms": 0.05
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_G",
+            "to": "District_E",
+            "weight": 5.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_D",
+            "weight": 11.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_S",
+            "weight": 12.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_L",
+            "weight": 12.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_L",
+            "weight": 18.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_N",
+            "weight": 21.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_P",
+            "weight": 32.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_V",
+            "weight": 35.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_T",
+            "weight": 36.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_K",
+            "weight": 37.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_K",
+            "weight": 41.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_S",
+            "weight": 44.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 47.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 49.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_U",
+            "weight": 50.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 53.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_Q",
+            "weight": 67.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_M",
+            "weight": 69.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_F",
+            "weight": 74.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_R",
+            "weight": 74.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_J",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 879,
+        "operations_count": 123,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 29,
+      "input_stats": {
+        "vertices": 20,
+        "edges": 29
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 36.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 8.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 41.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 29.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 6.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_P",
+            "weight": 52.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 52.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_T",
+            "weight": 50.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 59.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_R",
+            "weight": 35.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_M",
+            "weight": 21.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_I",
+            "weight": 31.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_N",
+            "weight": 46.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_H",
+            "weight": 53.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_S",
+            "weight": 39.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_G",
+            "weight": 83.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_Q",
+            "weight": 59.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_L",
+            "weight": 84.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_O",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 876,
+        "operations_count": 109,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 6.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 8.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_M",
+            "weight": 21.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 29.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_R",
+            "weight": 31.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_R",
+            "weight": 35.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_T",
+            "weight": 35.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 36.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_S",
+            "weight": 39.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_D",
+            "weight": 41.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_N",
+            "weight": 46.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_B",
+            "weight": 50.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 52.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_P",
+            "weight": 52.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_N",
+            "weight": 53.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_Q",
+            "weight": 59.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_G",
+            "weight": 83.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_T",
+            "weight": 84.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_O",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 852,
+        "operations_count": 108,
+        "execution_time_ms": 0.03
+      }
+    },
+    {
+      "graph_id": 30,
+      "input_stats": {
+        "vertices": 25,
+        "edges": 28
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 12.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_N",
+            "weight": 60.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 66.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_J",
+            "weight": 38.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 46.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 13.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_P",
+            "weight": 13.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_Q",
+            "weight": 34.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_V",
+            "weight": 12.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 62.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 67.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_W",
+            "weight": 88.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_K",
+            "weight": 12.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_X",
+            "weight": 28.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_U",
+            "weight": 33.0
+          },
+          {
+            "from": "District_X",
+            "to": "District_R",
+            "weight": 35.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_I",
+            "weight": 78.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_L",
+            "weight": 49.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 93.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_T",
+            "weight": 93.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_S",
+            "weight": 94.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_M",
+            "weight": 99.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_Y",
+            "weight": 49.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_O",
+            "weight": 97.0
+          }
+        ],
+        "total_cost": 1271,
+        "operations_count": 113,
+        "execution_time_ms": 0.06
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 12.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_V",
+            "weight": 12.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_W",
+            "weight": 12.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 13.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_P",
+            "weight": 13.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_X",
+            "weight": 28.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_U",
+            "weight": 33.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_Q",
+            "weight": 34.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_X",
+            "weight": 35.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_B",
+            "weight": 38.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_D",
+            "weight": 46.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_L",
+            "weight": 49.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_Y",
+            "weight": 49.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_A",
+            "weight": 60.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_E",
+            "weight": 62.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 66.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 67.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_K",
+            "weight": 78.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_W",
+            "weight": 88.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 93.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_T",
+            "weight": 93.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_S",
+            "weight": 94.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_O",
+            "weight": 97.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_M",
+            "weight": 99.0
+          }
+        ],
+        "total_cost": 1271,
+        "operations_count": 98,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 31,
+      "input_stats": {
+        "vertices": 21,
+        "edges": 40
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 18.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 21.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 15.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 38.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 21.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_G",
+            "weight": 14.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_K",
+            "weight": 10.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_R",
+            "weight": 24.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_Q",
+            "weight": 51.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 55.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_I",
+            "weight": 24.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_U",
+            "weight": 57.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_N",
+            "weight": 2.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_M",
+            "weight": 73.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_S",
+            "weight": 52.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_L",
+            "weight": 73.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_T",
+            "weight": 82.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_P",
+            "weight": 25.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_J",
+            "weight": 16.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_O",
+            "weight": 85.0
+          }
+        ],
+        "total_cost": 756,
+        "operations_count": 143,
+        "execution_time_ms": 0.06
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_N",
+            "to": "District_U",
+            "weight": 2.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_K",
+            "weight": 10.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_G",
+            "weight": 14.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_H",
+            "weight": 15.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_P",
+            "weight": 16.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 18.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 21.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_A",
+            "weight": 21.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_R",
+            "weight": 24.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_Q",
+            "weight": 24.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_T",
+            "weight": 25.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 38.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_Q",
+            "weight": 51.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_S",
+            "weight": 52.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_F",
+            "weight": 55.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_B",
+            "weight": 57.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_M",
+            "weight": 73.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_L",
+            "weight": 73.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_T",
+            "weight": 82.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_O",
+            "weight": 85.0
+          }
+        ],
+        "total_cost": 756,
+        "operations_count": 144,
+        "execution_time_ms": 0.04
+      }
+    },
+    {
+      "graph_id": 32,
+      "input_stats": {
+        "vertices": 24,
+        "edges": 25
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 41.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 43.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_H",
+            "weight": 25.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_W",
+            "weight": 20.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 44.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_O",
+            "weight": 32.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_U",
+            "weight": 57.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 64.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_N",
+            "weight": 71.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_R",
+            "weight": 83.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_P",
+            "weight": 46.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 87.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_Q",
+            "weight": 84.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 88.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 5.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_X",
+            "weight": 8.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_L",
+            "weight": 35.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_S",
+            "weight": 44.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_T",
+            "weight": 55.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_M",
+            "weight": 68.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 89.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_V",
+            "weight": 92.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_I",
+            "weight": 21.0
+          }
+        ],
+        "total_cost": 1202,
+        "operations_count": 99,
+        "execution_time_ms": 0.03
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 5.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_X",
+            "weight": 8.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_W",
+            "weight": 20.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_V",
+            "weight": 21.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_H",
+            "weight": 25.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_O",
+            "weight": 32.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_L",
+            "weight": 35.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_D",
+            "weight": 41.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 43.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_G",
+            "weight": 44.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_S",
+            "weight": 44.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_R",
+            "weight": 46.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_T",
+            "weight": 55.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_U",
+            "weight": 57.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 64.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_M",
+            "weight": 68.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_N",
+            "weight": 71.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_R",
+            "weight": 83.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_Q",
+            "weight": 84.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 87.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_E",
+            "weight": 88.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 89.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_V",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 1202,
+        "operations_count": 86,
+        "execution_time_ms": 0.04
+      }
+    },
+    {
+      "graph_id": 33,
+      "input_stats": {
+        "vertices": 24,
+        "edges": 68
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 7.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_I",
+            "weight": 21.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_M",
+            "weight": 6.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 26.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_E",
+            "weight": 3.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 11.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_L",
+            "weight": 6.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_D",
+            "weight": 7.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_G",
+            "weight": 18.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_O",
+            "weight": 14.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_Q",
+            "weight": 20.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_F",
+            "weight": 24.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_H",
+            "weight": 29.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_U",
+            "weight": 20.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_B",
+            "weight": 29.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_W",
+            "weight": 11.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_S",
+            "weight": 22.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_N",
+            "weight": 24.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_P",
+            "weight": 7.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_R",
+            "weight": 2.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_X",
+            "weight": 15.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_V",
+            "weight": 34.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_T",
+            "weight": 51.0
+          }
+        ],
+        "total_cost": 407,
+        "operations_count": 229,
+        "execution_time_ms": 0.04
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_P",
+            "to": "District_R",
+            "weight": 2.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_E",
+            "weight": 3.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_L",
+            "weight": 6.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_M",
+            "weight": 6.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_C",
+            "weight": 7.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_J",
+            "weight": 7.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_P",
+            "weight": 7.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_J",
+            "weight": 11.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_B",
+            "weight": 11.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_O",
+            "weight": 14.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_X",
+            "weight": 15.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_D",
+            "weight": 18.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_U",
+            "weight": 20.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_O",
+            "weight": 20.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_C",
+            "weight": 21.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_W",
+            "weight": 22.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_G",
+            "weight": 24.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_W",
+            "weight": 24.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_K",
+            "weight": 26.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_F",
+            "weight": 29.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_Q",
+            "weight": 29.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_M",
+            "weight": 34.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_T",
+            "weight": 51.0
+          }
+        ],
+        "total_cost": 407,
+        "operations_count": 174,
+        "execution_time_ms": 0.05
+      }
+    },
+    {
+      "graph_id": 34,
+      "input_stats": {
+        "vertices": 25,
+        "edges": 44
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_U",
+            "weight": 24.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 27.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 6.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_Q",
+            "weight": 9.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 30.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_E",
+            "weight": 5.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_W",
+            "weight": 14.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_M",
+            "weight": 14.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_O",
+            "weight": 18.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_S",
+            "weight": 34.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 44.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_P",
+            "weight": 28.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_D",
+            "weight": 39.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_N",
+            "weight": 42.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_V",
+            "weight": 45.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_G",
+            "weight": 3.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_R",
+            "weight": 46.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_T",
+            "weight": 47.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_J",
+            "weight": 51.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_H",
+            "weight": 35.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_X",
+            "weight": 44.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_L",
+            "weight": 74.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_I",
+            "weight": 88.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_Y",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 859,
+        "operations_count": 163,
+        "execution_time_ms": 0.03
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_V",
+            "to": "District_G",
+            "weight": 3.0
+          },
+          {
+            "from": "District_E",
+            "to": "District_Q",
+            "weight": 5.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_C",
+            "weight": 6.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_Q",
+            "weight": 9.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_W",
+            "weight": 14.0
+          },
+          {
+            "from": "District_M",
+            "to": "District_E",
+            "weight": 14.0
+          },
+          {
+            "from": "District_W",
+            "to": "District_O",
+            "weight": 18.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_U",
+            "weight": 24.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_B",
+            "weight": 27.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_P",
+            "weight": 28.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_K",
+            "weight": 30.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_S",
+            "weight": 34.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_T",
+            "weight": 35.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_P",
+            "weight": 39.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_F",
+            "weight": 42.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_F",
+            "weight": 44.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_X",
+            "weight": 44.0
+          },
+          {
+            "from": "District_V",
+            "to": "District_W",
+            "weight": 45.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_S",
+            "weight": 46.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_W",
+            "weight": 47.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_O",
+            "weight": 51.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_F",
+            "weight": 74.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_I",
+            "weight": 88.0
+          },
+          {
+            "from": "District_H",
+            "to": "District_Y",
+            "weight": 92.0
+          }
+        ],
+        "total_cost": 859,
+        "operations_count": 157,
+        "execution_time_ms": 0.03
+      }
+    },
+    {
+      "graph_id": 35,
+      "input_stats": {
+        "vertices": 21,
+        "edges": 70
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "District_A",
+            "to": "District_R",
+            "weight": 1.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_L",
+            "weight": 14.0
+          },
+          {
+            "from": "District_R",
+            "to": "District_U",
+            "weight": 4.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_F",
+            "weight": 8.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_J",
+            "weight": 17.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_G",
+            "weight": 2.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_K",
+            "weight": 3.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_C",
+            "weight": 4.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_P",
+            "weight": 6.0
+          },
+          {
+            "from": "District_K",
+            "to": "District_N",
+            "weight": 11.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_H",
+            "weight": 1.0
+          },
+          {
+            "from": "District_P",
+            "to": "District_T",
+            "weight": 18.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_D",
+            "weight": 20.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_Q",
+            "weight": 24.0
+          },
+          {
+            "from": "District_Q",
+            "to": "District_I",
+            "weight": 6.0
+          },
+          {
+            "from": "District_D",
+            "to": "District_O",
+            "weight": 28.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_M",
+            "weight": 34.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_B",
+            "weight": 49.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 55.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_S",
+            "weight": 66.0
+          }
+        ],
+        "total_cost": 371,
+        "operations_count": 229,
+        "execution_time_ms": 0.05
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "District_H",
+            "to": "District_N",
+            "weight": 1.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_R",
+            "weight": 1.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_G",
+            "weight": 2.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_K",
+            "weight": 3.0
+          },
+          {
+            "from": "District_G",
+            "to": "District_C",
+            "weight": 4.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_R",
+            "weight": 4.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_F",
+            "weight": 5.0
+          },
+          {
+            "from": "District_I",
+            "to": "District_Q",
+            "weight": 6.0
+          },
+          {
+            "from": "District_J",
+            "to": "District_P",
+            "weight": 6.0
+          },
+          {
+            "from": "District_F",
+            "to": "District_L",
+            "weight": 8.0
+          },
+          {
+            "from": "District_N",
+            "to": "District_K",
+            "weight": 11.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_R",
+            "weight": 14.0
+          },
+          {
+            "from": "District_T",
+            "to": "District_P",
+            "weight": 18.0
+          },
+          {
+            "from": "District_U",
+            "to": "District_D",
+            "weight": 20.0
+          },
+          {
+            "from": "District_A",
+            "to": "District_Q",
+            "weight": 24.0
+          },
+          {
+            "from": "District_O",
+            "to": "District_D",
+            "weight": 28.0
+          },
+          {
+            "from": "District_L",
+            "to": "District_M",
+            "weight": 34.0
+          },
+          {
+            "from": "District_B",
+            "to": "District_I",
+            "weight": 49.0
+          },
+          {
+            "from": "District_C",
+            "to": "District_E",
+            "weight": 55.0
+          },
+          {
+            "from": "District_S",
+            "to": "District_C",
+            "weight": 66.0
+          }
+        ],
+        "total_cost": 359,
+        "operations_count": 188,
+        "execution_time_ms": 0.06
+      }
+    }
+  ]
+}
