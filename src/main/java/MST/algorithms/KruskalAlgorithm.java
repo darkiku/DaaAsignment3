@@ -25,7 +25,7 @@ public class KruskalAlgorithm {
 
         int vertices = graph.getNumVertices();
         if (vertices == 0) {
-            executionTime = (System.nanoTime() - startTime) / 1_000_000;
+            executionTime = System.nanoTime() - startTime;
             return;
         }
 
@@ -60,7 +60,7 @@ public class KruskalAlgorithm {
             }
         }
 
-        executionTime = (System.nanoTime() - startTime) / 1_000_000;
+        executionTime = System.nanoTime() - startTime;
     }
 
     private int find(int x) {
@@ -99,6 +99,6 @@ public class KruskalAlgorithm {
     }
 
     public double getExecutionTimeMs() {
-        return executionTime / 1000.0;
+        return executionTime / 1_000_000.0;
     }
 }
