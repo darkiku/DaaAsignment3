@@ -22,7 +22,7 @@ public class PrimAlgorithm {
 
         int vertices = graph.getNumVertices();
         if (vertices == 0) {
-            executionTime = (System.nanoTime() - startTime) / 1_000_000;
+            executionTime = System.nanoTime() - startTime;
             return;
         }
 
@@ -68,7 +68,7 @@ public class PrimAlgorithm {
             }
         }
 
-        executionTime = (System.nanoTime() - startTime) / 1_000_000;
+        executionTime = System.nanoTime() - startTime;
     }
 
     public List<Edge> getMstEdges() {
@@ -88,6 +88,6 @@ public class PrimAlgorithm {
     }
 
     public double getExecutionTimeMs() {
-        return executionTime / 1000.0;
+        return executionTime / 1_000_000.0;
     }
 }
