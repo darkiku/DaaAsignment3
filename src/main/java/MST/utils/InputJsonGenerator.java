@@ -16,30 +16,34 @@ public class InputJsonGenerator {
 
         int id = 1;
 
-        for (int i = 0; i < 10; i++) {
-            int vertices = 4 + random.nextInt(3);
-            int edges = vertices + random.nextInt(vertices);
+        System.out.println("Generating graphs with fixed vertex counts:");
+        System.out.println("  - Small: 5, 10, 15, 20, 25, 30 vertices (6 graphs)");
+        System.out.println("  - Medium: 50, 75, 100, 125, 150, 175, 200, 225, 250, 275 vertices (10 graphs)");
+        System.out.println("  - Large: 350, 400, ..., 1000 vertices (10 graphs)");
+        System.out.println("  - Extra Large: 1300, 1600, 2000 vertices (3 graphs)");
+        System.out.println("Total: 29 graphs\n");
+
+        int[] smallSizes = {5, 10, 15, 20, 25, 30};
+        for (int vertices : smallSizes) {
+            int edges = vertices + random.nextInt(vertices / 2 + 1);
             configs.add(new GraphConfig(id++, vertices, edges, "Small"));
         }
 
-        for (int i = 0; i < 10; i++) {
-            int vertices = 10 + random.nextInt(6);
-            int maxEdges = vertices * (vertices - 1) / 2;
-            int edges = vertices + random.nextInt(Math.min(20, maxEdges - vertices));
+        for (int vertices = 50; vertices <= 275; vertices += 25) {
+            int edges = vertices + random.nextInt(Math.min(100, vertices / 2));
             configs.add(new GraphConfig(id++, vertices, edges, "Medium"));
         }
 
-        for (int i = 0; i < 15; i++) {
-            int vertices = 20 + random.nextInt(11);
-            int maxEdges = vertices * (vertices - 1) / 2;
-            int edges = vertices + random.nextInt(Math.min(50, maxEdges - vertices));
+        for (int vertices = 350; vertices <= 1000; vertices += 72) {
+            int edges = vertices + random.nextInt(Math.min(200, vertices / 3));
             configs.add(new GraphConfig(id++, vertices, edges, "Large"));
         }
 
-        System.out.println("Generating " + configs.size() + " graphs:");
-        System.out.println("  - Small (4-6 vertices): 10 graphs");
-        System.out.println("  - Medium (10-15 vertices): 10 graphs");
-        System.out.println("  - Large (20-30 vertices): 15 graphs");
+        int[] extraLargeSizes = {1300, 1600, 2000};
+        for (int vertices : extraLargeSizes) {
+            int edges = vertices + random.nextInt(Math.min(300, vertices / 4));
+            configs.add(new GraphConfig(id++, vertices, edges, "ExtraLarge"));
+        }
 
         generateGraphs(filename, configs);
     }
@@ -73,11 +77,7 @@ public class InputJsonGenerator {
 
         JsonArray nodes = new JsonArray();
         for (int i = 0; i < config.vertices; i++) {
-            if (config.vertices <= 26) {
-                nodes.add("District_" + (char)('A' + i));
-            } else {
-                nodes.add("District_" + i);
-            }
+            nodes.add("District_" + i);
         }
         graph.add("nodes", nodes);
 
@@ -85,8 +85,8 @@ public class InputJsonGenerator {
         Set<String> addedEdges = new HashSet<>();
 
         for (int i = 1; i < config.vertices; i++) {
-            String from = getNodeName(random.nextInt(i), config.vertices);
-            String to = getNodeName(i, config.vertices);
+            String from = "District_" + random.nextInt(i);
+            String to = "District_" + i;
             int weight = 1 + random.nextInt(100);
 
             addEdge(edges, addedEdges, from, to, weight);
@@ -94,15 +94,17 @@ public class InputJsonGenerator {
 
         int extraEdges = config.edges - (config.vertices - 1);
         int attempts = 0;
-        while (extraEdges > 0 && attempts < config.edges * 3) {
+        int maxAttempts = extraEdges * 3;
+
+        while (extraEdges > 0 && attempts < maxAttempts) {
             attempts++;
             int u = random.nextInt(config.vertices);
             int v = random.nextInt(config.vertices);
 
             if (u == v) continue;
 
-            String from = getNodeName(u, config.vertices);
-            String to = getNodeName(v, config.vertices);
+            String from = "District_" + u;
+            String to = "District_" + v;
             int weight = 1 + random.nextInt(100);
 
             if (addEdge(edges, addedEdges, from, to, weight)) {
@@ -112,14 +114,6 @@ public class InputJsonGenerator {
 
         graph.add("edges", edges);
         return graph;
-    }
-
-    private static String getNodeName(int index, int totalVertices) {
-        if (totalVertices <= 26) {
-            return "District_" + (char)('A' + index);
-        } else {
-            return "District_" + index;
-        }
     }
 
     private static boolean addEdge(JsonArray edges, Set<String> addedEdges,
